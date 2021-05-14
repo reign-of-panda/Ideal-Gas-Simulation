@@ -1,6 +1,8 @@
 # Ideal-Gas-Simulation
 
 This project aims to simulate an ideal gas and its thermodynamic properties using object oriented programming. 
+I participated in this project as a part of my 2nd year Physics coursework. All the code in this repository was written 
+by the owner of this repository (Swoyam Panda).
 
 The file BouncyStuff.py is a library containing the relevant classes for creating a container and gas particle objects. 
 y2_thermo_sp1219.py imports the BouncyStuff library, and contains code to conduct thermodynamic experiments, and 
