@@ -9,20 +9,20 @@ to view the outputs that the simulation can generate.
 
 A particle-container system can be initialised using:
 
->>> pc_sys = bs.Simulation(mass, radius, position, velocity, particle_num)
+> pc_sys = bs.Simulation(mass, radius, position, velocity, particle_num)
 
 The system can be set up with 1, 16, or 100 particles. For multiple particles, the position is pre-determined, hence an
 arbitrary value can be entered for the parameter. 
 To run the simulation, the following line is used:
 
->>> pc_sys.run(num_frames, animate)
+> pc_sys.run(num_frames, animate)
 
 where the number of frames determines how many particle collisions will occur.
 When the animate parameter is set to True, a particle collision animation is displayed
 
 In order to view the animation, the following line must be executed in the console (applicable for Spyder IDE):
 
->>> %matplotlib auto
+> %matplotlib auto
 
 Class Simulation (within BouncyStuff.py) contains various methods that are used to inspect thermodynamic properties. 
 
